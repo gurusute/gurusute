@@ -5,6 +5,7 @@ function removeProductIds(){
     // .textを置換する関数
     function removeProductId(){
        $(this).text($(this).text().replace(/\[商品番号:\d+\]/,""));
+       $(this).css("visibility","visible");
     }
 
     // 全てのproductnameクラスに適用
